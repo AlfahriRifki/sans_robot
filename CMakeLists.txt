@@ -37,6 +37,8 @@ endif()
 install(PROGRAMS
   scripts/nav_to_pose.py
   scripts/waypoint_follower.py
+  scripts/nav_through_poses.py
+  scripts/web_interface.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
